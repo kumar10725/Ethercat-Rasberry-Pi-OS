@@ -7,7 +7,7 @@ Instructions on how to install ethercat on raspberry pi OS
 https://github.com/guysoft/RealtimePi
 
 # install tools
-sudo apt install build-essential git
+`sudo apt install build-essential git`
 
 #then install relevant kernal headers from
 https://github.com/kdoren/linux/releases/
