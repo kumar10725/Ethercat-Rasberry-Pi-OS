@@ -27,9 +27,9 @@ make build
 make install
 echo "ETHERCAT_MASTER0=eth0" > ethercatmaster.local
 make dkms_add
-sudo make dkms_build
-sudo make dkms_install
-sudo make setup
+make dkms_build
+make dkms_install
+make setup
 # Reboot or start manually
 sudo systemctl start ethercat
 ```
