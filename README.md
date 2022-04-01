@@ -1,5 +1,5 @@
-# Ethercat-Rasberry-Pi-OS
-Instructions on how to install ethercat on raspberry pi OS
+# Ethercat on Rasberry-Pi-OS and Ubuntu Mate 20 (LTS)
+Instructions on how to install ethercat on raspberry pi OS (Ubuntu Mate 20 (LTS))
 
 
 #first install realtimepi OS
