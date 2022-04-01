@@ -18,10 +18,12 @@ sudo apt install -y  build-essential libtool automake tree dkms
 sudo apt-get install mercurial
 git clone https://github.com/icshwi/etherlabmaster
 cd etherlabmaster
+
+make init
 rm -rf etherlabmaster-code
+
 # get latest version
 git clone https://gitlab.com/etherlab.org/ethercat.git etherlabmaster-code
-make init
 echo "ENABLE_CYCLES = NO" > configure/CONFIG_OPTIONS.local
 make build
 make install
